@@ -1,0 +1,85 @@
+* {
+	font-family: MingLiU;
+}
+QTabWidget{
+	background-color: #fff;
+	padding: 10px;
+}
+QTabWidget::tab-bar {
+	left: 10px;
+}
+QTabWidget::pane {
+	border: none;
+}
+QTabBar::tab {
+	padding: 12px;
+	background-color: #fff;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	color: #000;
+}
+QTabBar::tab:selected {
+	border: 1px solid #ddd;
+	border-bottom: none;
+}
+QTabBar::tab:hover {
+	background-color: #eaeaea;	
+}
+QTabBar::tab:!selected {
+	border-bottom: 1px solid #ddd;	
+}
+QPushButton {
+	padding: 10px;
+	background-color: #0067F4;
+	color: #fff;
+	border: none;
+	outline: none;
+}
+QPushButton:hover{
+	background-color: #2289F6;
+}
+QLineEdit, QTextEdit {
+	font-family: STXihei;
+	font-size: 14px;
+	padding: 6px;
+	outline: none;
+	background-color: #fff;
+}
+QLabel {
+	font-family: STXihei;
+	font-size: 18px;
+}
+QComboBox {
+	font-family: STXihei;
+	font-size: 14px;
+	padding: 6px;
+	outline: none;
+	min-width: 10px;
+	border: 1px solid #222;
+	background-color: #fff;
+}
+QComboBox::drop-down {
+	outline: none;
+	border: 1px solid #fff;
+}
+QComboBox::down-arrow {
+	border: 1px solid #fff;
+	border-image: url(./images/down.jpg);
+}
+QComboBox QAbstractItemView {
+}
+QComboBox QAbstractItemView::item {
+	font-family: STXihei;
+	font-size: 14px;
+	padding: 6px;
+	outline: none;
+	min-width: 10px;
+	background-color: #fff;
+	color: #000;
+}
+QComboBox QAbstractItemView::item:hover {
+	background-color: #E9ECEF;
+}
+QComboBox QAbstractItemView::item:selected {
+	background-color: #E9ECEF;
+}
